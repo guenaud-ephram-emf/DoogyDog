@@ -1,6 +1,6 @@
 package models;
 
-import app.Affichage;
+import view.Affichage;
 
 public class Chien {
     private String nom;
