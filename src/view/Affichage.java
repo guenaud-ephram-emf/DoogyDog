@@ -144,21 +144,21 @@ public class Affichage {
                 chien.setNom(nom);
                 break;
 
-                case 7:
-                    System.out.println("Quel âge voulez vous donner ?");
-                    int age = scanner.nextInt();
-                    chien.setAge(age);
-                    break;
+            case 7:
+                System.out.println("Quel âge voulez vous donner ?");
+                int age = scanner.nextInt();
+                chien.setAge(age);
+                break;
 
-                case 8:
-                    System.out.println("Quel nourriture voulez vous donnez ?");
-                    String nourriture = scanner.next();
-                    chien.setNourriture(nourriture);
-                    break;
+            case 8:
+                System.out.println("Quel nourriture voulez vous donnez ?");
+                String nourriture = scanner.next();
+                chien.setNourriture(nourriture);
+                break;
 
-                case 9:
-                    System.out.println("Fermeture du jeu");
-                    enJeu = false;
+            case 9:
+                System.out.println("Fermeture du jeu");
+                enJeu = false;
                 break;
 
             default:
@@ -199,7 +199,6 @@ public class Affichage {
                     chien.gainExp(exp);
                 }
                 break;
-                
 
             case 2:
                 System.out.println("Très bien !");
